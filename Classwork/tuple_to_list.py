@@ -1,0 +1,5 @@
+t1=(10,20,30)
+thisList=list(t1)
+thisList.append("hello")
+t1=tuple(thisList)
+print(t1)
